@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class sdz {
 
 	public static void main(String[] args) {
-
+		char ch = 'B';
+		getCharAsciCode(ch);
 	}
 	
 // programme Java pour afficher l’aire et le périmètre d’un cercle.
@@ -68,7 +69,14 @@ public class sdz {
 				max = num;
 			}
 		}
-		
 		return max;
 	}
+	
+//	Write a Java program to display the ascii value of a given character.
+	
+	public static void getCharAsciCode(char ch) {
+	        int ascii = ch;
+	        System.out.println("La valeur ASCII de "+ch+" est: " + ascii);
+	}
+
 }
