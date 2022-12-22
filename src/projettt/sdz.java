@@ -5,10 +5,7 @@ import java.util.Scanner;
 public class sdz {
 
 	public static void main(String[] args) {
-//		calculer__moy_nmbres(4,2,6);
-//		permuteVar(1,2);
-//		factorielle(8);
-		reverse("WayToLearnX");
+
 	}
 	
 // programme Java pour afficher l’aire et le périmètre d’un cercle.
@@ -60,5 +57,18 @@ public class sdz {
 				System.out.println(newWord);
 		}
 		}
+	}
+	
+//	method that returns the largest integer in an array.
+	
+	public static int maximun(int tab[]) {
+		int max = tab[0];
+		for(int num : tab) {
+			if (max < num) {
+				max = num;
+			}
+		}
+		
+		return max;
 	}
 }
